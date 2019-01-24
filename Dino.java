@@ -150,7 +150,7 @@ public abstract class Dino
         {
             if(this.IsAlive == false)
 
-            System.out.println("\t"+ this.toString() + " just died");
+            
             this.IsAlive = false;
         }
     }

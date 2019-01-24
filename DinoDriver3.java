@@ -5,18 +5,15 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-
-
 import java.util.Scanner;
 import java.util.ArrayList;
 public class DinoDriver3
 {
-   
     public static void main(String[] args)
     {
      ArrayList<Dino> myPop = new ArrayList<Dino>();
      //prompt the user to imput the number of dinos in the population
-     System.out.print("How Many Dinosaurs in the Population?");
+     System.out.print("How Many Dinosaurs in the Population?"+"\t");
      Scanner scan = new Scanner(System.in);
      int s = scan.nextInt();
      // fill this list with the three types 
